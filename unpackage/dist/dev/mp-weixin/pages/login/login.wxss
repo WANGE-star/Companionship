@@ -1,0 +1,91 @@
+
+/* 登录页整体样式 */
+.login-page.data-v-e4e4508d {
+  background-color: #1e1e2e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+/* 导航栏 */
+.header.data-v-e4e4508d {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40rpx;
+  margin-bottom: 80rpx;
+}
+.close.data-v-e4e4508d {
+  font-size: 60rpx;
+  color: #ffffff;
+  cursor: pointer;
+}
+.title.data-v-e4e4508d {
+  font-size: 48rpx;
+  color: #ffffff;
+  font-weight: 600;
+}
+.empty.data-v-e4e4508d {
+  width: 60rpx; /* 与关闭按钮等宽，保证标题居中 */
+}
+
+/* 头像占位 */
+.avatar-placeholder.data-v-e4e4508d {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #333344;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+/* 副标题 */
+.subtitle.data-v-e4e4508d {
+  font-size: 36rpx;
+  color: #ffffff;
+  margin-bottom: 60rpx;
+}
+
+/* 登录按钮 */
+.login-btn.data-v-e4e4508d {
+  width: 100%;
+  height: 90rpx;
+  background: linear-gradient(90deg, #9966ff, #cc99ff);
+  color: #ffffff;
+  font-size: 36rpx;
+  border-radius: 45rpx;
+  margin-bottom: 40rpx;
+  border: none;
+}
+.login-btn.data-v-e4e4508d::after {
+  border: none; /* 清除默认边框 */
+}
+
+/* 协议区域 */
+.agreement.data-v-e4e4508d {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #aaaaaa;
+  margin-bottom: 80rpx;
+}
+.agreement-checkbox.data-v-e4e4508d {
+  transform: scale(0.8);
+  margin-right: 10rpx;
+}
+.agreement-link.data-v-e4e4508d {
+  color: #ff3366;
+  text-decoration: underline;
+  margin: 0 5rpx;
+}
+
+/* 版权信息 */
+.copyright.data-v-e4e4508d {
+  font-size: 24rpx;
+  color: #666666;
+  position: absolute;
+  bottom: 40rpx;
+}
