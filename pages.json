@@ -22,30 +22,18 @@
     	"path" : "pages/food/food",
     	"style" : 
     	{
-    		"navigationBarTitleText" : ""
+    		"navigationBarTitleText" : "美食"
     	}
-    }
+	},
+	{
+		"path": "components/CommonHeader",
+		"style": {
+			"navigationBarTitleText": "顶部导航"
+		}
+	}
   ],
   
-  "tabBar": {
-    "color": "#999",
-    "selectedColor": "#673ab7",
-    
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",  // 文本唯一
-        "iconPath": "/static/tabbar/陪玩-未选中.png",
-        "selectedIconPath": "/static/tabbar/陪玩-选中.png"
-      },
-      {
-        "pagePath": "pages/mine/mine",
-        "text": "我的",  // 文本唯一，与页面匹配
-        "iconPath": "/static/tabbar/我的-未选中.png",
-        "selectedIconPath": "/static/tabbar/我的-选中.png"
-      }
-    ]
-  },
+  
   "globalStyle": {
     "backgroundColor": "#1e1e2e",
     "backgroundTextStyle": "light",
